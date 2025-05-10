@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/", "dest": "/api/index.js" },
+    { "src": "/api/absen", "dest": "/api/absen.js" },
+    { "src": "/webhook/.*", "dest": "/api/telegram.js" }
+  ]
+}
