@@ -12,7 +12,7 @@ module.exports = async (req, res) => {
     text,
   });
 
-  const formHtml = fs.readFileSync(path.join(__dirname, "../form.html"), "utf-8");
+  const formHtml = fs.readFileSync(path.join(__dirname, "../index.html"), "utf-8");
   res.setHeader("Content-Type", "text/html");
   res.status(200).send(formHtml);
 };
