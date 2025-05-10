@@ -3,8 +3,8 @@ const path = require("path");
 const axios = require("axios");
 const absensiFile = path.join(__dirname, "../absensi.json");
 
-const TELEGRAM_BOT_TOKEN = "TOKEN_KAMU";
-const TELEGRAM_USER_ID = "USER_ID_KAMU";
+const TELEGRAM_BOT_TOKEN = "7990890271:AAFHGe2etMiRhZxaZj8JbcVHdPnBx-yHqB8";
+const TELEGRAM_USER_ID = "7341190291";
 
 module.exports = async (req, res) => {
   if (req.method !== "POST") return res.status(405).send("Method Not Allowed");
