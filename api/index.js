@@ -2,8 +2,8 @@ const fs = require("fs");
 const path = require("path");
 const axios = require("axios");
 
-const TELEGRAM_BOT_TOKEN = "TOKEN_KAMU";
-const TELEGRAM_USER_ID = "USER_ID_KAMU";
+const TELEGRAM_BOT_TOKEN = "7990890271:AAFHGe2etMiRhZxaZj8JbcVHdPnBx-yHqB8";
+const TELEGRAM_USER_ID = "7341190291";
 
 module.exports = async (req, res) => {
   const text = `Woi Bang Ada yang baru buka website absensi!`;
@@ -14,5 +14,5 @@ module.exports = async (req, res) => {
 
   const formHtml = fs.readFileSync(path.join(__dirname, "../index.html"), "utf-8");
   res.setHeader("Content-Type", "text/html");
-  res.status(200).send(formHtml);
+  res.status(200).send(indexHtml);
 };
