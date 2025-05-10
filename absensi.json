@@ -1,0 +1,20 @@
+[
+  {
+    "nama": "Rizky",
+    "umur": "17",
+    "kelas": "XII IPA 1",
+    "waktu": "2025-05-10 08:00"
+  },
+  {
+    "nama": "Putri",
+    "umur": "16",
+    "kelas": "XI IPS 2",
+    "waktu": "2025-05-10 08:10"
+  },
+  {
+    "nama": "Bayu",
+    "umur": "18",
+    "kelas": "XII TKJ",
+    "waktu": "2025-05-10 08:15"
+  }
+]
